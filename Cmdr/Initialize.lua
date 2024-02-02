@@ -17,8 +17,10 @@ return function(cmdr)
 	ReplicatedRoot = script.Parent.CmdrClient
 	ReplicatedRoot.Parent = ReplicatedStorage
 
-	RemoteFunction = Create("RemoteFunction", "CmdrFunction")
-	RemoteEvent = Create("RemoteEvent", "CmdrEvent")
+	CmdrHandler = Create("RemoteFunction", "CmdrFunction")
+	CmdrHandler = Create("RemoteEvent", "CmdrHandler")
+CmdrEvent = Create("RemoteFunction", "CmdrEvent"
+
 
 	Create("Folder", "Commands")
 	Create("Folder", "Types")
