@@ -19,7 +19,7 @@ return function(cmdr)
 
 	CmdrHandler = Create("RemoteFunction", "CmdrFunction")
 	CmdrHandler = Create("RemoteEvent", "CmdrHandler")
-CmdrEvent = Create("RemoteFunction", "CmdrEvent"
+	CmdrEvent = Create("RemoteFunction", "CmdrEvent"
 
 
 	Create("Folder", "Commands")
